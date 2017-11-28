@@ -1,0 +1,26 @@
+-mcpu=cortex-m0
+-mthumb
+-mfloat-abi=soft
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-DSWLIBS_DEFAULT_IMPLEMENTATION=SWLIBS_DEFAULT_IMPLEMENTATION_F16
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Project_Headers"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Project_Settings/Startup_Code"
+-I"D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include"
+-I"D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Sources/Peripherals"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Sources/FreeMASTER"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Sources/FreeMASTER/Kxx"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Sources/Config"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Sources/BSP"
+-I"C:/Freescale/AMMCLIB/KEAx_AMMCLIB_v1.0.0/include"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Sources/Peripherals/Can_drv"
+-I"C:/Freescale/KEA128BLDCRD/SW/KEA128_BLDC_Sensorless/Sources/Peripherals/can_drv/cfg"
+-O0
+-ffunction-sections
+-fdata-sections
+-Wall
+-c
+-fmessage-length=0
+-specs=ewl_c_noio.specs

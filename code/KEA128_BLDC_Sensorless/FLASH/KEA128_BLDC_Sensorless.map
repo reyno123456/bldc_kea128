@@ -1,0 +1,1066 @@
+Archive member included because of file (symbol)
+
+D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (exit)
+D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (memset)
+D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                              D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o) (__fill_mem)
+d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+                              ./Sources/BLDCSensorless.o (__aeabi_idiv)
+d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o) (__aeabi_idiv0)
+D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (__init_cpp)
+D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                              D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o) (__destroy_global_chain)
+D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (__copy_rom_sections_to_ram)
+
+Allocating common symbols
+Common symbol       size              file
+
+Can_DriverStatus    0x1               ./Sources/Peripherals/can_drv/Can.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .text.__iar_program_start
+                0x00000000        0x4 ./Project_Settings/Startup_Code/__arm_start.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .text          0x00000000        0x0 ./Sources/BLDCSensorless.o
+ .text.xl_lib_F16F32
+                0x00000000       0x20 ./Sources/BLDCSensorless.o
+ .text.xl_lib_SubSat
+                0x00000000       0x34 ./Sources/BLDCSensorless.o
+ .text.xl_lib_pi
+                0x00000000       0xb4 ./Sources/BLDCSensorless.o
+ .text          0x00000000        0x0 ./Sources/BSP/MC33937_routines.o
+ .text.MC33937_Disable
+                0x00000000       0x14 ./Sources/BSP/MC33937_routines.o
+ .text.MC33937_Reset
+                0x00000000       0x14 ./Sources/BSP/MC33937_routines.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .text.Can_ISR_Wake_0
+                0x00000000       0x10 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/can_drv/Can.o
+ .text.Can_Init
+                0x00000000      0x598 ./Sources/Peripherals/can_drv/Can.o
+ .text.Can_SentData
+                0x00000000      0x164 ./Sources/Peripherals/can_drv/Can.o
+ .text.Can_GetStatus
+                0x00000000      0x11c ./Sources/Peripherals/can_drv/Can.o
+ .text.Can_SetMode
+                0x00000000      0x250 ./Sources/Peripherals/can_drv/Can.o
+ .text.Can_Wakeup
+                0x00000000       0x7c ./Sources/Peripherals/can_drv/Can.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/uart.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/spi.o
+ .text.SPI_0_SendWord
+                0x00000000       0x9c ./Sources/Peripherals/spi.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/sim.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/rtc.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/pit.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/osc.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/nvic.o
+ .text.NVIC_DisableIrq
+                0x00000000       0x3c ./Sources/Peripherals/nvic.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/ics.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/gpio.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/ftm.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/adc.o
+ .text          0x00000000        0x0 ./Sources/Peripherals/acmp.o
+ .text          0x00000000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__register_global_object
+                0x00000000       0x14 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__cxa_atexit
+                0x00000000       0x38 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__aeabi_atexit
+                0x00000000        0xe D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__register_atexit
+                0x00000000        0xc D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text.__init_hardware
+                0x00000000        0x4 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .text.__flush_cache
+                0x00000000        0x2 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x000000c0         xr
+m_cfmprotrom     0x00000400         0x00000010         xr
+m_text           0x00000800         0x0001f800         xr
+m_data           0x1ffff000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Project_Settings/Startup_Code/kinetis_sysinit.o
+LOAD ./Project_Settings/Startup_Code/__arm_start.o
+LOAD ./Project_Settings/Startup_Code/__arm_end.o
+LOAD ./Sources/BLDCSensorless.o
+LOAD ./Sources/BSP/MC33937_routines.o
+LOAD ./Sources/Peripherals/can_drv/Can_Isr.o
+LOAD ./Sources/Peripherals/can_drv/Can.o
+LOAD ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+LOAD ./Sources/Peripherals/uart.o
+LOAD ./Sources/Peripherals/spi.o
+LOAD ./Sources/Peripherals/sim.o
+LOAD ./Sources/Peripherals/rtc.o
+LOAD ./Sources/Peripherals/pit.o
+LOAD ./Sources/Peripherals/osc.o
+LOAD ./Sources/Peripherals/nvic.o
+LOAD ./Sources/Peripherals/ics.o
+LOAD ./Sources/Peripherals/gpio.o
+LOAD ./Sources/Peripherals/ftm.o
+LOAD ./Sources/Peripherals/adc.o
+LOAD ./Sources/Peripherals/acmp.o
+START GROUP
+LOAD D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a
+LOAD D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a
+LOAD d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a
+LOAD D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a
+END GROUP
+                0x20003000                _estack = 0x20003000
+                0x20003000                __SP_INIT = _estack
+                0x00000100                __heap_size = 0x100
+                0x00000100                __stack_size = 0x100
+
+.interrupts     0x00000000       0xc0
+                0x00000000                __vector_table = .
+                0x00000000                . = ALIGN (0x4)
+ *(.vectortable)
+ .vectortable   0x00000000       0xc0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x00000000                InterruptVector
+                0x000000c0                . = ALIGN (0x4)
+
+.cfmprotect     0x00000400        0x0
+                0x00000400                . = ALIGN (0x4)
+ *(.cfmconfig)
+                0x00000400                . = ALIGN (0x4)
+
+.text           0x00000800     0x2198
+                0x00000800                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000800       0xc0 d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+                0x00000800                __divsi3
+                0x00000800                __aeabi_idiv
+                0x000008ac                __aeabi_idivmod
+ .text          0x000008c0        0x4 d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x000008c0                __aeabi_idiv0
+                0x000008c0                __aeabi_ldiv0
+ *(.text*)
+ .text.Default_Handler
+                0x000008c4        0xc ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x000008c4                I2C0_IRQHandler
+                0x000008c4                HardFault_Handler
+                0x000008c4                SysTick_Handler
+                0x000008c4                PendSV_Handler
+                0x000008c4                NMI_Handler
+                0x000008c4                I2C1_IRQHandler
+                0x000008c4                UART0_SCI0_IRQHandler
+                0x000008c4                ADC0_IRQHandler
+                0x000008c4                WDG_IRQHandler
+                0x000008c4                SPI1_IRQHandler
+                0x000008c4                FTMRE_IRQHandler
+                0x000008c4                UART2_SCI2_IRQHandler
+                0x000008c4                RTC_IRQHandler
+                0x000008c4                IRQ_IRQHandler
+                0x000008c4                FTM1_IRQHandler
+                0x000008c4                PIT_CH0_IRQHandler
+                0x000008c4                Default_Handler
+                0x000008c4                ACMP0_IRQHandler
+                0x000008c4                PWT_IRQHandler
+                0x000008c4                SVC_Handler
+                0x000008c4                MSCAN_Tx_IRQHandler
+                0x000008c4                ICS_IRQHandler
+                0x000008c4                PIT_CH1_IRQHandler
+                0x000008c4                KBI0_IRQHandler
+                0x000008c4                PMC_IRQHandler
+                0x000008c4                MSCAN_Rx_IRQHandler
+                0x000008c4                SPI0_IRQHandler
+                0x000008c4                FTM0_IRQHandler
+                0x000008c4                FTM2_IRQHandler
+                0x000008c4                ACMP1_IRQHandler
+                0x000008c4                KBI1_IRQHandler
+                0x000008c4                UART1_SCI1_IRQHandler
+ .text.__init_hardware
+                0x000008d0       0x38 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x000008d0                __init_hardware
+ .text.FMSTR_Isr
+                0x00000908        0x8 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x00000908                FMSTR_Isr
+ .text.zero_fill_bss
+                0x00000910       0x24 ./Project_Settings/Startup_Code/__arm_start.o
+ .text.__thumb_startup
+                0x00000934       0x30 ./Project_Settings/Startup_Code/__arm_start.o
+                0x00000934                __thumb_startup
+ .text._ExitProcess
+                0x00000964        0xc ./Project_Settings/Startup_Code/__arm_end.o
+                0x00000964                _ExitProcess
+ .text.xl_lib_mul
+                0x00000970       0x34 ./Sources/BLDCSensorless.o
+ .text.xl_lib_F32F16
+                0x000009a4       0x24 ./Sources/BLDCSensorless.o
+ .text.xl_lib_div
+                0x000009c8       0x40 ./Sources/BLDCSensorless.o
+ .text.NMI_ISR  0x00000a08       0x18 ./Sources/BLDCSensorless.o
+                0x00000a08                NMI_ISR
+ .text.Can_RxNotification
+                0x00000a20       0x20 ./Sources/BLDCSensorless.o
+                0x00000a20                Can_RxNotification
+ .text.ICSIRCLK_Trim
+                0x00000a40      0x104 ./Sources/BLDCSensorless.o
+                0x00000a40                ICSIRCLK_Trim
+ .text.main     0x00000b44      0x15c ./Sources/BLDCSensorless.o
+                0x00000b44                main
+ .text.AppInit  0x00000ca0      0x124 ./Sources/BLDCSensorless.o
+ .text.AppStop  0x00000dc4       0x58 ./Sources/BLDCSensorless.o
+ .text.AppCalib
+                0x00000e1c       0x68 ./Sources/BLDCSensorless.o
+ .text.AppStopToAlignment
+                0x00000e84      0x128 ./Sources/BLDCSensorless.o
+ .text.AppAlignment
+                0x00000fac       0x24 ./Sources/BLDCSensorless.o
+ .text.AppAlignmentToStart
+                0x00000fd0      0x140 ./Sources/BLDCSensorless.o
+ .text.AppStart
+                0x00001110       0x80 ./Sources/BLDCSensorless.o
+ .text.AppStartToRun
+                0x00001190       0xd8 ./Sources/BLDCSensorless.o
+ .text.AppRun   0x00001268       0x78 ./Sources/BLDCSensorless.o
+ .text.AppFault
+                0x000012e0       0x68 ./Sources/BLDCSensorless.o
+ .text.CheckFaults
+                0x00001348      0x288 ./Sources/BLDCSensorless.o
+ .text.CheckSwitchState
+                0x000015d0      0x11c ./Sources/BLDCSensorless.o
+ .text.ADC_ISR  0x000016ec      0x26c ./Sources/BLDCSensorless.o
+                0x000016ec                ADC_ISR
+ .text.FTM0_ISR
+                0x00001958      0x1cc ./Sources/BLDCSensorless.o
+                0x00001958                FTM0_ISR
+ .text.PIT_CH0_ISR
+                0x00001b24      0x1c0 ./Sources/BLDCSensorless.o
+                0x00001b24                PIT_CH0_ISR
+ .text.StallCheck
+                0x00001ce4      0x138 ./Sources/BLDCSensorless.o
+ .text.MC33937_SendCommand
+                0x00001e1c       0x30 ./Sources/BSP/MC33937_routines.o
+                0x00001e1c                MC33937_SendCommand
+ .text.MC33937_ReadData
+                0x00001e4c       0x40 ./Sources/BSP/MC33937_routines.o
+                0x00001e4c                MC33937_ReadData
+ .text.MC33937_ClearFaults
+                0x00001e8c       0x20 ./Sources/BSP/MC33937_routines.o
+                0x00001e8c                MC33937_ClearFaults
+ .text.MC33937_Enable
+                0x00001eac       0x14 ./Sources/BSP/MC33937_routines.o
+                0x00001eac                MC33937_Enable
+ .text.MC33937_ReadStatus
+                0x00001ec0       0x94 ./Sources/BSP/MC33937_routines.o
+                0x00001ec0                MC33937_ReadStatus
+ .text.MC33937_DeadtimeSetup
+                0x00001f54       0x58 ./Sources/BSP/MC33937_routines.o
+                0x00001f54                MC33937_DeadtimeSetup
+ .text.MC33937_Config
+                0x00001fac       0xbc ./Sources/BSP/MC33937_routines.o
+                0x00001fac                MC33937_Config
+ .text.Can_ISR_Rx_0
+                0x00002068       0x10 ./Sources/Peripherals/can_drv/Can_Isr.o
+                0x00002068                Can_ISR_Rx_0
+ .text.Can_ReceiveData
+                0x00002078      0x120 ./Sources/Peripherals/can_drv/Can.o
+                0x00002078                Can_ReceiveData
+ .text.UART2_Init
+                0x00002198       0x2c ./Sources/Peripherals/uart.o
+                0x00002198                UART2_Init
+ .text.SPI0_Init
+                0x000021c4       0x2c ./Sources/Peripherals/spi.o
+                0x000021c4                SPI0_Init
+ .text.SPI_0_SendByte
+                0x000021f0       0x48 ./Sources/Peripherals/spi.o
+                0x000021f0                SPI_0_SendByte
+ .text.SIM_Init
+                0x00002238       0x38 ./Sources/Peripherals/sim.o
+                0x00002238                SIM_Init
+ .text.RTC_Init
+                0x00002270       0x28 ./Sources/Peripherals/rtc.o
+                0x00002270                RTC_Init
+ .text.PIT_Init
+                0x00002298       0x14 ./Sources/Peripherals/pit.o
+                0x00002298                PIT_Init
+ .text.PIT_CH0_Init
+                0x000022ac       0x28 ./Sources/Peripherals/pit.o
+                0x000022ac                PIT_CH0_Init
+ .text.PIT_CH1_Delay
+                0x000022d4       0x48 ./Sources/Peripherals/pit.o
+                0x000022d4                PIT_CH1_Delay
+ .text.OSC_Init
+                0x0000231c       0x24 ./Sources/Peripherals/osc.o
+                0x0000231c                OSC_Init
+ .text.NVIC_EnableIrq
+                0x00002340       0x38 ./Sources/Peripherals/nvic.o
+                0x00002340                NVIC_EnableIrq
+ .text.NVIC_SetIrqPriority
+                0x00002378       0x6c ./Sources/Peripherals/nvic.o
+                0x00002378                NVIC_SetIrqPriority
+ .text.ICS_Init_FEE
+                0x000023e4       0x28 ./Sources/Peripherals/ics.o
+                0x000023e4                ICS_Init_FEE
+ .text.ICS_Init_FEI
+                0x0000240c       0x28 ./Sources/Peripherals/ics.o
+                0x0000240c                ICS_Init_FEI
+ .text.GPIO_Init
+                0x00002434       0xc0 ./Sources/Peripherals/gpio.o
+                0x00002434                GPIO_Init
+ .text.FTM0_Init
+                0x000024f4       0x20 ./Sources/Peripherals/ftm.o
+                0x000024f4                FTM0_Init
+ .text.FTM1_Init
+                0x00002514       0x24 ./Sources/Peripherals/ftm.o
+                0x00002514                FTM1_Init
+ .text.FTM2_Init
+                0x00002538       0xd8 ./Sources/Peripherals/ftm.o
+                0x00002538                FTM2_Init
+ .text.ADC_Init
+                0x00002610       0x1c ./Sources/Peripherals/adc.o
+                0x00002610                ADC_Init
+ .text.ADC_StartSingleConversion
+                0x0000262c       0x30 ./Sources/Peripherals/adc.o
+                0x0000262c                ADC_StartSingleConversion
+ .text.ADC_EnableTrigSeq
+                0x0000265c       0x88 ./Sources/Peripherals/adc.o
+                0x0000265c                ADC_EnableTrigSeq
+ .text.ACMP0_Init
+                0x000026e4       0x38 ./Sources/Peripherals/acmp.o
+                0x000026e4                ACMP0_Init
+ .text.ACMP1_Init
+                0x0000271c       0x38 ./Sources/Peripherals/acmp.o
+                0x0000271c                ACMP1_Init
+ .text.exit     0x00002754       0x38 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x00002754                exit
+ .text.memset   0x0000278c        0xc D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                0x0000278c                memset
+ .text.__fill_mem
+                0x00002798       0x7e D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                0x00002798                __fill_mem
+ *fill*         0x00002816        0x2 00
+ .text.__init_cpp
+                0x00002818       0x48 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00002818                __init_cpp
+ .text.__fini_cpp
+                0x00002860       0x34 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00002860                __fini_cpp
+ .text.__destroy_global_chain
+                0x00002894       0x1c D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00002894                __destroy_global_chain
+ .text.__init_registers
+                0x000028b0       0x1c D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x000028b0                __init_registers
+ .text.__init_user
+                0x000028cc        0x4 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x000028cc                __init_user
+ .text.__copy_rom_section
+                0x000028d0       0x48 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x000028d0                __copy_rom_section
+ .text.__copy_rom_sections_to_ram
+                0x00002918       0x34 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x00002918                __copy_rom_sections_to_ram
+ *(.rodata)
+ *(.rodata*)
+ .rodata.AppStateMachine
+                0x0000294c       0x1c ./Sources/BLDCSensorless.o
+ .rodata.ui8FTM2OutmaskVal
+                0x00002968       0x10 ./Sources/BLDCSensorless.o
+ .rodata.ui16FTM2SwOctrlVal
+                0x00002978       0x20 ./Sources/BLDCSensorless.o
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x00002998                . = ALIGN (0x4)
+                0x00002998                _etext = .
+
+.vfp11_veneer   0x00002998        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00002998        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00002998        0x0
+ .iplt          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+
+.rel.dyn        0x00002998        0x0
+ .rel.iplt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00002998        0x0
+                0x00002998                __exidx_start = .
+ *(.ARM.exidx*)
+                0x00002998                __exidx_end = .
+
+.ctors          0x00002998        0x0
+                0x00002998                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x00002998                __CTOR_END__ = .
+
+.dtors          0x00002998        0x0
+                0x00002998                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x00002998                __DTOR_END__ = .
+
+.preinit_array  0x00002998        0x0
+                0x00002998                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x00002998                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00002998        0x0
+                0x00002998                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x00002998                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00002998        0x0
+                0x00002998                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x00002998                PROVIDE (__fini_array_end, .)
+                0x00002998                ___ROM_AT = .
+
+.mtb            0x1ffff000        0x0
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_start = .
+ *(.mtb_buf)
+                0x1ffff000                . = ALIGN (0x8)
+                0x1ffff000                _mtb_end = .
+
+.data           0x1ffff000       0x5c load address 0x00002998
+                0x1ffff000                . = ALIGN (0x4)
+                0x1ffff000                _sdata = .
+ *(.data)
+ .data          0x1ffff000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .data          0x1ffff000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .data          0x1ffff000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .data          0x1ffff000        0x0 ./Sources/BLDCSensorless.o
+ .data          0x1ffff000        0x0 ./Sources/BSP/MC33937_routines.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/can_drv/Can.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/uart.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/spi.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/sim.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/rtc.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/pit.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/osc.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/nvic.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/ics.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/gpio.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/ftm.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/adc.o
+ .data          0x1ffff000        0x0 ./Sources/Peripherals/acmp.o
+ .data          0x1ffff000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .data          0x1ffff000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .data          0x1ffff000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .data          0x1ffff000        0x0 d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x1ffff000        0x0 d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x1ffff000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .data          0x1ffff000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .data          0x1ffff000        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ *(.data*)
+ .data.requiredSpeed
+                0x1ffff000        0x2 ./Sources/BLDCSensorless.o
+ *fill*         0x1ffff002        0x2 00
+ .data.AdcChannelList
+                0x1ffff004       0x24 ./Sources/BLDCSensorless.o
+ .data.mcat_alignVoltage
+                0x1ffff028        0x2 ./Sources/BLDCSensorless.o
+ .data.mcat_alignDuration
+                0x1ffff02a        0x2 ./Sources/BLDCSensorless.o
+ .data.mcat_NMin
+                0x1ffff02c        0x2 ./Sources/BLDCSensorless.o
+ .data.mcat_FreewheelT
+                0x1ffff02e        0x2 ./Sources/BLDCSensorless.o
+ .data.mcat_startCmtCnt
+                0x1ffff030        0x1 ./Sources/BLDCSensorless.o
+ *fill*         0x1ffff031        0x1 00
+ .data.mcat_startCmtPer
+                0x1ffff032        0x2 ./Sources/BLDCSensorless.o
+ .data.mcat_startCmtAcceler
+                0x1ffff034        0x2 ./Sources/BLDCSensorless.o
+ .data.mcat_cmtTOff
+                0x1ffff036        0x2 ./Sources/BLDCSensorless.o
+ .data.my_duty  0x1ffff038        0x2 ./Sources/BLDCSensorless.o
+ *fill*         0x1ffff03a        0x2 00
+ .data.Can_FilterSet
+                0x1ffff03c        0xc ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+                0x1ffff03c                Can_FilterSet
+ .data.Can_ModuleConfig
+                0x1ffff048       0x10 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+                0x1ffff048                Can_ModuleConfig
+ .data.Can_RegsBase
+                0x1ffff058        0x4 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+                0x1ffff058                Can_RegsBase
+                0x1ffff05c                . = ALIGN (0x4)
+                0x1ffff05c                _edata = .
+                0x0000005c                ___data_size = (_edata - _sdata)
+
+.igot.plt       0x1ffff05c        0x0 load address 0x000029f4
+ .igot.plt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1ffff05c                . = ALIGN (0x4)
+
+.bss            0x1ffff05c      0x3bc load address 0x000029f4
+                0x1ffff05c                __START_BSS = .
+                0x1ffff05c                PROVIDE (__bss_start__, __START_BSS)
+ *(.bss)
+ .bss           0x1ffff05c        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .bss           0x1ffff05c        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .bss           0x1ffff05c        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .bss           0x1ffff05c        0x0 ./Sources/BLDCSensorless.o
+ .bss           0x1ffff05c        0x0 ./Sources/BSP/MC33937_routines.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/can_drv/Can.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/uart.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/spi.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/sim.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/rtc.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/pit.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/osc.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/nvic.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/ics.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/gpio.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/ftm.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/adc.o
+ .bss           0x1ffff05c        0x0 ./Sources/Peripherals/acmp.o
+ .bss           0x1ffff05c        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .bss           0x1ffff05c        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .bss           0x1ffff05c        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .bss           0x1ffff05c        0x0 d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x1ffff05c        0x0 d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x1ffff05c        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .bss           0x1ffff05c        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss           0x1ffff05c        0x0 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ *(.bss*)
+ .bss.argv      0x1ffff05c        0x4 ./Project_Settings/Startup_Code/__arm_start.o
+ .bss.NextCmtPeriod
+                0x1ffff060        0x2 ./Sources/BLDCSensorless.o
+ .bss.duty_cycle
+                0x1ffff062        0x2 ./Sources/BLDCSensorless.o
+ .bss.NextCmtSector
+                0x1ffff064        0x1 ./Sources/BLDCSensorless.o
+ .bss.ActualCmtSector
+                0x1ffff065        0x1 ./Sources/BLDCSensorless.o
+ .bss.alignmentTimer
+                0x1ffff066        0x2 ./Sources/BLDCSensorless.o
+ .bss.startCMTcounter
+                0x1ffff068        0x2 ./Sources/BLDCSensorless.o
+ .bss.freewheelTimer
+                0x1ffff06a        0x2 ./Sources/BLDCSensorless.o
+ .bss.mc33937_Status
+                0x1ffff06c        0x4 ./Sources/BLDCSensorless.o
+ .bss.appState  0x1ffff070        0x1 ./Sources/BLDCSensorless.o
+ .bss.rotationDir
+                0x1ffff071        0x1 ./Sources/BLDCSensorless.o
+ .bss.appSwitchState
+                0x1ffff072        0x1 ./Sources/BLDCSensorless.o
+ .bss.faultSwitchClear
+                0x1ffff073        0x1 ./Sources/BLDCSensorless.o
+ .bss.driveStatus
+                0x1ffff074        0x4 ./Sources/BLDCSensorless.o
+ .bss.faultStatus
+                0x1ffff078        0x4 ./Sources/BLDCSensorless.o
+ .bss.faultStatusLatched
+                0x1ffff07c        0x4 ./Sources/BLDCSensorless.o
+ .bss.ADCResults
+                0x1ffff080        0x8 ./Sources/BLDCSensorless.o
+ .bss.bemfVoltage
+                0x1ffff088        0x2 ./Sources/BLDCSensorless.o
+ .bss.bemfVoltageOld
+                0x1ffff08a        0x2 ./Sources/BLDCSensorless.o
+ .bss.timeBackEmf
+                0x1ffff08c        0x2 ./Sources/BLDCSensorless.o
+ .bss.timeOldBackEmf
+                0x1ffff08e        0x2 ./Sources/BLDCSensorless.o
+ .bss.timeZCToff
+                0x1ffff090        0x2 ./Sources/BLDCSensorless.o
+ .bss.timeZC    0x1ffff092        0x2 ./Sources/BLDCSensorless.o
+ .bss.lastTimeZC
+                0x1ffff094        0x2 ./Sources/BLDCSensorless.o
+ .bss.ftm_mod_old
+                0x1ffff096        0x2 ./Sources/BLDCSensorless.o
+ .bss.actualPeriodZC
+                0x1ffff098        0x2 ./Sources/BLDCSensorless.o
+ .bss.period6ZC
+                0x1ffff09a        0x2 ./Sources/BLDCSensorless.o
+ .bss.periodZC  0x1ffff09c        0xc ./Sources/BLDCSensorless.o
+ .bss.advanceAngle
+                0x1ffff0a8        0x2 ./Sources/BLDCSensorless.o
+ .bss.debugPeriodMin
+                0x1ffff0aa        0x2 ./Sources/BLDCSensorless.o
+ .bss.debugPeriodMax
+                0x1ffff0ac        0x2 ./Sources/BLDCSensorless.o
+ .bss.periodZcAvrg
+                0x1ffff0ae        0x2 ./Sources/BLDCSensorless.o
+ .bss.stallCheckCounter
+                0x1ffff0b0        0x2 ./Sources/BLDCSensorless.o
+ .bss.speedErr  0x1ffff0b2        0x2 ./Sources/BLDCSensorless.o
+ .bss.requiredSpeedRamp
+                0x1ffff0b4        0x2 ./Sources/BLDCSensorless.o
+ .bss.actualSpeed
+                0x1ffff0b6        0x2 ./Sources/BLDCSensorless.o
+ .bss.speedPIPrms
+                0x1ffff0b8       0x14 ./Sources/BLDCSensorless.o
+ .bss.currentPIPrms
+                0x1ffff0cc       0x14 ./Sources/BLDCSensorless.o
+ .bss.speedRampPrms
+                0x1ffff0e0        0xc ./Sources/BLDCSensorless.o
+ .bss.switchCounter
+                0x1ffff0ec        0x4 ./Sources/BLDCSensorless.o
+ .bss.switchOffCounter
+                0x1ffff0f0        0x2 ./Sources/BLDCSensorless.o
+ .bss.mcat_Dummy16
+                0x1ffff0f2        0x2 ./Sources/BLDCSensorless.o
+ .bss.__stdio_exit
+                0x1ffff0f4        0x4 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x1ffff0f4                __stdio_exit
+ .bss.__console_exit
+                0x1ffff0f8        0x4 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x1ffff0f8                __console_exit
+ .bss.__dso_handle
+                0x1ffff0fc        0x4 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x1ffff0fc                __dso_handle
+ .bss.atexit_curr_func
+                0x1ffff100        0x4 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_funcs
+                0x1ffff104      0x300 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .bss.__global_destructor_chain
+                0x1ffff404        0x4 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x1ffff404                __global_destructor_chain
+ .bss.__S_romp  0x1ffff408        0xc D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ *(COMMON)
+ COMMON         0x1ffff414        0x1 ./Sources/Peripherals/can_drv/Can.o
+                0x1ffff414                Can_DriverStatus
+                0x1ffff418                . = ALIGN (0x4)
+ *fill*         0x1ffff415        0x3 00
+                0x1ffff418                __END_BSS = .
+                0x1ffff418                PROVIDE (__bss_end__, __END_BSS)
+                0x000029f4                _romp_at = (___ROM_AT + SIZEOF (.data))
+
+.romp           0x1ffff418       0x18 load address 0x000029f4
+                0x000029f4                __S_romp = _romp_at
+                0x1ffff418        0x4 LONG 0x2998 ___ROM_AT
+                0x1ffff41c        0x4 LONG 0x1ffff000 _sdata
+                0x1ffff420        0x4 LONG 0x5c ___data_size
+                0x1ffff424        0x4 LONG 0x0
+                0x1ffff428        0x4 LONG 0x0
+                0x1ffff42c        0x4 LONG 0x0
+
+._user_heap_stack
+                0x1ffff430      0x200 load address 0x00002a0c
+                0x1ffff430                . = ALIGN (0x4)
+                0x1ffff430                PROVIDE (end, .)
+                0x1ffff430                PROVIDE (_end, .)
+                0x1ffff430                __heap_addr = .
+                0x1ffff530                . = (. + __heap_size)
+ *fill*         0x1ffff430      0x100 00
+                0x1ffff630                . = (. + __stack_size)
+ *fill*         0x1ffff530      0x100 00
+                0x1ffff630                . = ALIGN (0x4)
+
+.ARM.attributes
+                0x00000000       0x31
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x31 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .ARM.attributes
+                0x00000031       0x31 ./Project_Settings/Startup_Code/__arm_start.o
+ .ARM.attributes
+                0x00000062       0x31 ./Project_Settings/Startup_Code/__arm_end.o
+ .ARM.attributes
+                0x00000093       0x31 ./Sources/BLDCSensorless.o
+ .ARM.attributes
+                0x000000c4       0x31 ./Sources/BSP/MC33937_routines.o
+ .ARM.attributes
+                0x000000f5       0x31 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .ARM.attributes
+                0x00000126       0x31 ./Sources/Peripherals/can_drv/Can.o
+ .ARM.attributes
+                0x00000157       0x31 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .ARM.attributes
+                0x00000188       0x31 ./Sources/Peripherals/uart.o
+ .ARM.attributes
+                0x000001b9       0x31 ./Sources/Peripherals/spi.o
+ .ARM.attributes
+                0x000001ea       0x31 ./Sources/Peripherals/sim.o
+ .ARM.attributes
+                0x0000021b       0x31 ./Sources/Peripherals/rtc.o
+ .ARM.attributes
+                0x0000024c       0x31 ./Sources/Peripherals/pit.o
+ .ARM.attributes
+                0x0000027d       0x31 ./Sources/Peripherals/osc.o
+ .ARM.attributes
+                0x000002ae       0x31 ./Sources/Peripherals/nvic.o
+ .ARM.attributes
+                0x000002df       0x31 ./Sources/Peripherals/ics.o
+ .ARM.attributes
+                0x00000310       0x31 ./Sources/Peripherals/gpio.o
+ .ARM.attributes
+                0x00000341       0x31 ./Sources/Peripherals/ftm.o
+ .ARM.attributes
+                0x00000372       0x31 ./Sources/Peripherals/adc.o
+ .ARM.attributes
+                0x000003a3       0x31 ./Sources/Peripherals/acmp.o
+ .ARM.attributes
+                0x000003d4       0x31 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .ARM.attributes
+                0x00000405       0x31 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .ARM.attributes
+                0x00000436       0x31 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .ARM.attributes
+                0x00000467       0x1e d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000485       0x1e d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000004a3       0x31 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x000004d4       0x31 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .ARM.attributes
+                0x00000505       0x31 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+OUTPUT(KEA128_BLDC_Sensorless.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x4704
+ .debug_info    0x00000000      0x39c ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_info    0x0000039c      0x12a ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_info    0x000004c6       0x54 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_info    0x0000051a     0x14f2 ./Sources/BLDCSensorless.o
+ .debug_info    0x00001a0c      0x4e5 ./Sources/BSP/MC33937_routines.o
+ .debug_info    0x00001ef1       0x99 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .debug_info    0x00001f8a      0x8e4 ./Sources/Peripherals/can_drv/Can.o
+ .debug_info    0x0000286e      0x48c ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .debug_info    0x00002cfa      0x11e ./Sources/Peripherals/uart.o
+ .debug_info    0x00002e18      0x199 ./Sources/Peripherals/spi.o
+ .debug_info    0x00002fb1      0x143 ./Sources/Peripherals/sim.o
+ .debug_info    0x000030f4       0xf3 ./Sources/Peripherals/rtc.o
+ .debug_info    0x000031e7      0x199 ./Sources/Peripherals/pit.o
+ .debug_info    0x00003380       0xbb ./Sources/Peripherals/osc.o
+ .debug_info    0x0000343b      0x22c ./Sources/Peripherals/nvic.o
+ .debug_info    0x00003667      0x107 ./Sources/Peripherals/ics.o
+ .debug_info    0x0000376e      0x195 ./Sources/Peripherals/gpio.o
+ .debug_info    0x00003903      0x2b7 ./Sources/Peripherals/ftm.o
+ .debug_info    0x00003bba      0x19f ./Sources/Peripherals/adc.o
+ .debug_info    0x00003d59      0x116 ./Sources/Peripherals/acmp.o
+ .debug_info    0x00003e6f       0xe8 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_info    0x00003f57       0xec D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_info    0x00004043      0x137 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_info    0x0000417a      0x136 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x000042b0      0x2b9 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x00004569      0x19b D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_abbrev   0x00000000     0x1513
+ .debug_abbrev  0x00000000      0x148 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_abbrev  0x00000148       0x92 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_abbrev  0x000001da       0x4c ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_abbrev  0x00000226      0x21e ./Sources/BLDCSensorless.o
+ .debug_abbrev  0x00000444      0x14a ./Sources/BSP/MC33937_routines.o
+ .debug_abbrev  0x0000058e       0x3d ./Sources/Peripherals/can_drv/Can_Isr.o
+ .debug_abbrev  0x000005cb      0x1a0 ./Sources/Peripherals/can_drv/Can.o
+ .debug_abbrev  0x0000076b       0xc5 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .debug_abbrev  0x00000830       0x85 ./Sources/Peripherals/uart.o
+ .debug_abbrev  0x000008b5       0xf4 ./Sources/Peripherals/spi.o
+ .debug_abbrev  0x000009a9       0x85 ./Sources/Peripherals/sim.o
+ .debug_abbrev  0x00000a2e       0x94 ./Sources/Peripherals/rtc.o
+ .debug_abbrev  0x00000ac2       0xee ./Sources/Peripherals/pit.o
+ .debug_abbrev  0x00000bb0       0x85 ./Sources/Peripherals/osc.o
+ .debug_abbrev  0x00000c35       0xfa ./Sources/Peripherals/nvic.o
+ .debug_abbrev  0x00000d2f       0x85 ./Sources/Peripherals/ics.o
+ .debug_abbrev  0x00000db4       0x85 ./Sources/Peripherals/gpio.o
+ .debug_abbrev  0x00000e39       0xb3 ./Sources/Peripherals/ftm.o
+ .debug_abbrev  0x00000eec       0xc9 ./Sources/Peripherals/adc.o
+ .debug_abbrev  0x00000fb5       0x9e ./Sources/Peripherals/acmp.o
+ .debug_abbrev  0x00001053       0x7a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_abbrev  0x000010cd       0x62 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_abbrev  0x0000112f       0x78 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_abbrev  0x000011a7       0x99 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00001240      0x1b3 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_abbrev  0x000013f3      0x120 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_loc      0x00000000     0x1338
+ .debug_loc     0x00000000       0x84 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_loc     0x00000084       0x2c ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_loc     0x000000b0       0x38 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_loc     0x000000e8      0x52c ./Sources/BLDCSensorless.o
+ .debug_loc     0x00000614      0x1c8 ./Sources/BSP/MC33937_routines.o
+ .debug_loc     0x000007dc       0x58 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .debug_loc     0x00000834      0x150 ./Sources/Peripherals/can_drv/Can.o
+ .debug_loc     0x00000984       0x2c ./Sources/Peripherals/uart.o
+ .debug_loc     0x000009b0       0x9c ./Sources/Peripherals/spi.o
+ .debug_loc     0x00000a4c       0x2c ./Sources/Peripherals/sim.o
+ .debug_loc     0x00000a78       0x38 ./Sources/Peripherals/rtc.o
+ .debug_loc     0x00000ab0       0x9c ./Sources/Peripherals/pit.o
+ .debug_loc     0x00000b4c       0x2c ./Sources/Peripherals/osc.o
+ .debug_loc     0x00000b78       0xa8 ./Sources/Peripherals/nvic.o
+ .debug_loc     0x00000c20       0x58 ./Sources/Peripherals/ics.o
+ .debug_loc     0x00000c78       0x2c ./Sources/Peripherals/gpio.o
+ .debug_loc     0x00000ca4       0x84 ./Sources/Peripherals/ftm.o
+ .debug_loc     0x00000d28       0x9c ./Sources/Peripherals/adc.o
+ .debug_loc     0x00000dc4       0x70 ./Sources/Peripherals/acmp.o
+ .debug_loc     0x00000e34       0x3e D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_loc     0x00000e72       0x6f D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_loc     0x00000ee1      0x14a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_loc     0x0000102b       0x9d D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x000010c8      0x197 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x0000125f       0xd9 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_aranges  0x00000000      0x540
+ .debug_aranges
+                0x00000000       0x30 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_aranges
+                0x00000030       0x30 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_aranges
+                0x00000060       0x20 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_aranges
+                0x00000080       0xe8 ./Sources/BLDCSensorless.o
+ .debug_aranges
+                0x00000168       0x60 ./Sources/BSP/MC33937_routines.o
+ .debug_aranges
+                0x000001c8       0x28 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .debug_aranges
+                0x000001f0       0x48 ./Sources/Peripherals/can_drv/Can.o
+ .debug_aranges
+                0x00000238       0x18 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .debug_aranges
+                0x00000250       0x20 ./Sources/Peripherals/uart.o
+ .debug_aranges
+                0x00000270       0x30 ./Sources/Peripherals/spi.o
+ .debug_aranges
+                0x000002a0       0x20 ./Sources/Peripherals/sim.o
+ .debug_aranges
+                0x000002c0       0x20 ./Sources/Peripherals/rtc.o
+ .debug_aranges
+                0x000002e0       0x30 ./Sources/Peripherals/pit.o
+ .debug_aranges
+                0x00000310       0x20 ./Sources/Peripherals/osc.o
+ .debug_aranges
+                0x00000330       0x30 ./Sources/Peripherals/nvic.o
+ .debug_aranges
+                0x00000360       0x28 ./Sources/Peripherals/ics.o
+ .debug_aranges
+                0x00000388       0x20 ./Sources/Peripherals/gpio.o
+ .debug_aranges
+                0x000003a8       0x30 ./Sources/Peripherals/ftm.o
+ .debug_aranges
+                0x000003d8       0x30 ./Sources/Peripherals/adc.o
+ .debug_aranges
+                0x00000408       0x28 ./Sources/Peripherals/acmp.o
+ .debug_aranges
+                0x00000430       0x20 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_aranges
+                0x00000450       0x20 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_aranges
+                0x00000470       0x20 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_aranges
+                0x00000490       0x28 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x000004b8       0x58 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_aranges
+                0x00000510       0x30 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_macinfo  0x00000000   0x23f143
+ .debug_macinfo
+                0x00000000    0x1f551 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_macinfo
+                0x0001f551     0x3eaf ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_macinfo
+                0x00023400     0x3498 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_macinfo
+                0x00026898    0x20d70 ./Sources/BLDCSensorless.o
+ .debug_macinfo
+                0x00047608    0x1fba1 ./Sources/BSP/MC33937_routines.o
+ .debug_macinfo
+                0x000671a9    0x1fab7 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .debug_macinfo
+                0x00086c60    0x1fad1 ./Sources/Peripherals/can_drv/Can.o
+ .debug_macinfo
+                0x000a6731    0x1fab3 ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .debug_macinfo
+                0x000c61e4    0x1f547 ./Sources/Peripherals/uart.o
+ .debug_macinfo
+                0x000e572b    0x1f563 ./Sources/Peripherals/spi.o
+ .debug_macinfo
+                0x00104c8e    0x1f546 ./Sources/Peripherals/sim.o
+ .debug_macinfo
+                0x001241d4    0x1f55a ./Sources/Peripherals/rtc.o
+ .debug_macinfo
+                0x0014372e    0x1f587 ./Sources/Peripherals/pit.o
+ .debug_macinfo
+                0x00162cb5    0x1f546 ./Sources/Peripherals/osc.o
+ .debug_macinfo
+                0x001821fb    0x1f547 ./Sources/Peripherals/nvic.o
+ .debug_macinfo
+                0x001a1742    0x1f546 ./Sources/Peripherals/ics.o
+ .debug_macinfo
+                0x001c0c88    0x1f985 ./Sources/Peripherals/gpio.o
+ .debug_macinfo
+                0x001e060d    0x20063 ./Sources/Peripherals/ftm.o
+ .debug_macinfo
+                0x00200670    0x1f58c ./Sources/Peripherals/adc.o
+ .debug_macinfo
+                0x0021fbfc    0x1f547 ./Sources/Peripherals/acmp.o
+
+.debug_line     0x00000000     0x3c2e
+ .debug_line    0x00000000      0x25e ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_line    0x0000025e      0x2cc ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_line    0x0000052a      0x2b6 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_line    0x000007e0      0x7a5 ./Sources/BLDCSensorless.o
+ .debug_line    0x00000f85      0x349 ./Sources/BSP/MC33937_routines.o
+ .debug_line    0x000012ce      0x339 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .debug_line    0x00001607      0x46b ./Sources/Peripherals/can_drv/Can.o
+ .debug_line    0x00001a72      0x2be ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .debug_line    0x00001d30      0x21d ./Sources/Peripherals/uart.o
+ .debug_line    0x00001f4d      0x25c ./Sources/Peripherals/spi.o
+ .debug_line    0x000021a9      0x221 ./Sources/Peripherals/sim.o
+ .debug_line    0x000023ca      0x218 ./Sources/Peripherals/rtc.o
+ .debug_line    0x000025e2      0x241 ./Sources/Peripherals/pit.o
+ .debug_line    0x00002823      0x21b ./Sources/Peripherals/osc.o
+ .debug_line    0x00002a3e      0x245 ./Sources/Peripherals/nvic.o
+ .debug_line    0x00002c83      0x232 ./Sources/Peripherals/ics.o
+ .debug_line    0x00002eb5      0x227 ./Sources/Peripherals/gpio.o
+ .debug_line    0x000030dc      0x289 ./Sources/Peripherals/ftm.o
+ .debug_line    0x00003365      0x246 ./Sources/Peripherals/adc.o
+ .debug_line    0x000035ab      0x230 ./Sources/Peripherals/acmp.o
+ .debug_line    0x000037db       0x8d D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_line    0x00003868       0x90 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_line    0x000038f8       0xf6 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_line    0x000039ee       0x6c D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x00003a5a      0x117 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x00003b71       0xbd D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_str      0x00000000     0x1cdd
+ .debug_str     0x00000000      0x252 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                                0x279 (size before relaxing)
+ .debug_str     0x00000252       0x85 ./Project_Settings/Startup_Code/__arm_start.o
+                                0x1a3 (size before relaxing)
+ .debug_str     0x000002d7       0x41 ./Project_Settings/Startup_Code/__arm_end.o
+                                 0xda (size before relaxing)
+ .debug_str     0x00000318      0xbe1 ./Sources/BLDCSensorless.o
+                                0xd55 (size before relaxing)
+ .debug_str     0x00000ef9      0x108 ./Sources/BSP/MC33937_routines.o
+                                0x365 (size before relaxing)
+ .debug_str     0x00001001       0x45 ./Sources/Peripherals/can_drv/Can_Isr.o
+                                0x15e (size before relaxing)
+ .debug_str     0x00001046      0x4d8 ./Sources/Peripherals/can_drv/Can.o
+                                0x682 (size before relaxing)
+ .debug_str     0x0000151e       0x3e ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+                                0x427 (size before relaxing)
+ .debug_str     0x0000155c       0x44 ./Sources/Peripherals/uart.o
+                                0x158 (size before relaxing)
+ .debug_str     0x000015a0       0x7b ./Sources/Peripherals/spi.o
+                                0x1ae (size before relaxing)
+ .debug_str     0x0000161b       0x26 ./Sources/Peripherals/sim.o
+                                0x195 (size before relaxing)
+ .debug_str     0x00001641       0x31 ./Sources/Peripherals/rtc.o
+                                0x168 (size before relaxing)
+ .debug_str     0x00001672       0x56 ./Sources/Peripherals/pit.o
+                                0x1b5 (size before relaxing)
+ .debug_str     0x000016c8       0x3f ./Sources/Peripherals/osc.o
+                                0x153 (size before relaxing)
+ .debug_str     0x00001707       0xaf ./Sources/Peripherals/nvic.o
+                                0x254 (size before relaxing)
+ .debug_str     0x000017b6       0x37 ./Sources/Peripherals/ics.o
+                                0x164 (size before relaxing)
+ .debug_str     0x000017ed       0x66 ./Sources/Peripherals/gpio.o
+                                0x1b9 (size before relaxing)
+ .debug_str     0x00001853       0x3b ./Sources/Peripherals/ftm.o
+                                0x210 (size before relaxing)
+ .debug_str     0x0000188e       0x85 ./Sources/Peripherals/adc.o
+                                0x1c2 (size before relaxing)
+ .debug_str     0x00001913       0x56 ./Sources/Peripherals/acmp.o
+                                0x16a (size before relaxing)
+ .debug_str     0x00001969       0x60 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                                0x157 (size before relaxing)
+ .debug_str     0x000019c9       0x23 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                                0x140 (size before relaxing)
+ .debug_str     0x000019ec       0x2d D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                                0x152 (size before relaxing)
+ .debug_str     0x00001a19      0x126 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x00001b3f       0xf8 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                                0x1b5 (size before relaxing)
+ .debug_str     0x00001c37       0xa6 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                                0x13c (size before relaxing)
+
+.comment        0x00000000       0x79
+ .comment       0x00000000       0x79 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                                 0x7a (size before relaxing)
+ .comment       0x00000000       0x7a ./Project_Settings/Startup_Code/__arm_start.o
+ .comment       0x00000000       0x7a ./Project_Settings/Startup_Code/__arm_end.o
+ .comment       0x00000000       0x7a ./Sources/BLDCSensorless.o
+ .comment       0x00000000       0x7a ./Sources/BSP/MC33937_routines.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/can_drv/Can_Isr.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/can_drv/Can.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/can_drv/cfg/Can_cfg.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/uart.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/spi.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/sim.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/rtc.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/pit.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/osc.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/nvic.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/ics.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/gpio.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/ftm.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/adc.o
+ .comment       0x00000000       0x7a ./Sources/Peripherals/acmp.o
+ .comment       0x00000000       0x7a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+
+.debug_frame    0x00000000      0xbbc
+ .debug_frame   0x00000000       0x64 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_frame   0x00000064       0x4c ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_frame   0x000000b0       0x30 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_frame   0x000000e0      0x324 ./Sources/BLDCSensorless.o
+ .debug_frame   0x00000404      0x120 ./Sources/BSP/MC33937_routines.o
+ .debug_frame   0x00000524       0x48 ./Sources/Peripherals/can_drv/Can_Isr.o
+ .debug_frame   0x0000056c       0xd0 ./Sources/Peripherals/can_drv/Can.o
+ .debug_frame   0x0000063c       0x2c ./Sources/Peripherals/uart.o
+ .debug_frame   0x00000668       0x6c ./Sources/Peripherals/spi.o
+ .debug_frame   0x000006d4       0x2c ./Sources/Peripherals/sim.o
+ .debug_frame   0x00000700       0x30 ./Sources/Peripherals/rtc.o
+ .debug_frame   0x00000730       0x6c ./Sources/Peripherals/pit.o
+ .debug_frame   0x0000079c       0x2c ./Sources/Peripherals/osc.o
+ .debug_frame   0x000007c8       0x70 ./Sources/Peripherals/nvic.o
+ .debug_frame   0x00000838       0x48 ./Sources/Peripherals/ics.o
+ .debug_frame   0x00000880       0x2c ./Sources/Peripherals/gpio.o
+ .debug_frame   0x000008ac       0x64 ./Sources/Peripherals/ftm.o
+ .debug_frame   0x00000910       0x6c ./Sources/Peripherals/adc.o
+ .debug_frame   0x0000097c       0x50 ./Sources/Peripherals/acmp.o
+ .debug_frame   0x000009cc       0x2c D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_frame   0x000009f8       0x28 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_frame   0x00000a20       0x2c D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_frame   0x00000a4c       0x20 d:/program files (x86)/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000a6c       0x40 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x00000aac       0xbc D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_frame   0x00000b68       0x54 D:/Program Files (x86)/freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
